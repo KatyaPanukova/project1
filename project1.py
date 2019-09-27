@@ -10,11 +10,11 @@
 #период никтоина в неделю, месяц,год,количество потраченных тугриков за неделю,месяц,год, и общую сумму расходов
 #на сигареты за день, месяц, год.
 import math
-print('Введите количество сигарет потребляемых человеком, курящим "Parlament": ')
+print('Enter the number of cigarettes which are consumed by the person how is smoking " Parlament": ')
 x = int(input())
-print('Введите количество сигарет потребляемых человеком, курящим "Senator": ')
+print('Enter the number of cigarettes which are consumed by the person how is smoking "Senator": ')
 y = int(input())
-print('Введите количество сигарет потребляемых человеком, курящим "Belomor canal": ')
+print('Enter the number of cigarettes which are consumed by the person how is smoking "Belomor canal": ')
 z = int(input())
 x7 = math.ceil((x * 7) / 20) * 189
 y7 = math.ceil((y * 7) / 20) * 150
@@ -38,24 +38,24 @@ xsmol = int(365 * x * 4)
 ysmol = int(365 * x * 0.7)
 zsmol = int(365 * x * 30)
 if (x365 < y365) and (x365 < z365):
-    print('Курить "Parlament" дешевле всего в долгосрочном периоде.')
-    print(x7,'-тугриков в неделю тратит человек, курящий "Parlament".Потребляемое при этом количество смолл(мг) равно:',xsmolw)
-    print(x30,'-тугриков в месяц тратит человек, курящий "Parlament".Потребляемое при этом количество смолл(мг) равно:',xsmol1)
-    print(x365, '-тугриков в год тратит человек, курящий "Parlament".Потребляемое при этом количество смолл(мг) равно:',xsmol)
+    print('Smoking "Parliament" is cheaper in the long term.')
+    print(x7,'-tugriky in a week people spend on Smoking "Parlament". Consumed in this case the amount of small (mg) is equal to:',xsmolw)
+    print(x30,'-tugriky in a month people spend on Smoking "Parlament". Consumed in this case the amount of small (mg) is equal to:',xsmol1)
+    print(x365, '-tugriky in a year people spend on Smoking "Parlament". Consumed in this case the amount of small (mg) is equal to:',xsmol)
 if (y365 < x365) and (y365 < z365):
-    print('Курить "Senator" дешевле всего в долгосрочном периоде.')
-    print(y7,'-тугриков в неделю тратит человек, курящий "Senator".Потребляемое при этом количество смолл(мг) равно:',ysmolw)
-    print(y30, '-тугриков в месяц тратит человек, курящий "Senator".Потребляемое при этом количество смолл(мг) равно:',ysmol2)
-    print(y365, '-тугриков в год тратит человек, курящий "Senator".Потребляемое при этом количество смолл(мг) равно:',ysmol)
+    print('Smoking "Senator" is cheaper in the long term.')
+    print(y7,'-tugriky in a week people spend Smoking "Senator". Consumed in this case the amount of small (mg) is equal to:',ysmolw)
+    print(y30, '-tugriky in a month people spend Smoking "Senator". Consumed in this case the amount of small (mg) is equal to:',ysmol2)
+    print(y365, '-tugriky in a year people spend Smoking "Senator". Consumed in this case the amount of small (mg) is equal to:',ysmol)
 if (z365 < y365) and (z365 < x365):
-    print('Курить "Belomor canal" дешевле всего в долгосрочном периоде.')
-    print(z7,'-тугриков в неделю тратит человек, курящий "Belomor canal".Потребляемое при этом количество смолл(мг) равно:',zsmolw)
-    print(z30,'-тугриков в месяц тратит человек, курящий "Belomor canal".Потребляемое при этом количество смолл(мг) равно:',zsmol3)
-    print(z365, '-тугриков в год тратит человек, курящий "Belomor canal".Потребляемое при этом количество смолл(мг) равно:',zsmol)
-print('Сумма общих затрат на сигареты в неделю:',summ1)
-print('Сумма общих затрат на сигареты в месяц:',summ2)
-print('Сумма общих затрат на сигареты в год:',summ)
-print('КУРЕНИЕ ВРЕДИТ ВАШЕМУ ЗДОРОВЬЮ!(18+)')
+    print('Smoking "Belomor canal" is cheaper in the long term.')
+    print(z7,'-tugriky in a week people spend Smoking "Belomor canal". Consumed in this case the amount of small (mg) is equal to:',zsmolw)
+    print(z30,'-tugriky in a month people spend Smoking "Belomor canal". Consumed in this case the amount of small (mg) is equal to:',zsmol3)
+    print(z365, '-tugriky in a year people spend Smoking "Belomor canal". Consumed in this case the amount of small (mg) is equal to:',zsmol)
+print('Total cost of cigarettes per week:',summ1)
+print('Total cost of cigarettes per month:',summ2)
+print('Total cost of cigarettes per year:',summ)
+print('SMOKING IS BAD FOR YOUR HEALTH(18+)')
 
 
 
